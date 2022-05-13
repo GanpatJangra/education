@@ -1,5 +1,5 @@
 <template>
-  <div class="px-2 lg:px-14 text-third bg-first">
+  <div class="px-3 sm:px-16 lg:px-[100px] text-third bg-[#FEFCEC] scroll-smooth">
     <nav-bar></nav-bar>
     <nuxt/>
     <footer-bar></footer-bar>

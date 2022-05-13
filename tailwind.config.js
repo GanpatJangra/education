@@ -376,8 +376,9 @@ module.exports = {
         }),
         backgroundImage: {
             none: 'none',
-            graphic: "url(./assets/images/webcom/graphic.svg)",
-            image: "url(./assets/images/webcom/image.svg)",
+            graphic: "url(~/assets/images/webcom/graphic.svg)",
+            graphic1: "url(~/assets/images/webcom/graphic1.png])",
+            image: "url(~/assets/images/webcom/image.svg)",
             // tiger: "url(./assets/images/animals/Space_Animal_2.svg)",
             // animal: "url(./assets/images/animals/Space_Animal_5.svg)",
             'gradient-to-t': 'linear-gradient(to top, var(--tw-gradient-stops))',
@@ -418,7 +419,7 @@ module.exports = {
             none: '0',
             sm: '0.125rem',
             DEFAULT: '0.25rem',
-            md: '0.375rem',
+            sm: '0.375rem',
             lg: '0.5rem',
             xl: '0.625rem',
             '2xl': '0.75rem',
@@ -442,7 +443,7 @@ module.exports = {
         boxShadow: {
             sm: '0 8px 10px rgba(0, 0, 0, 0.08)',
             DEFAULT: '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
-            md: '0 3px 32px rgba(0, 0, 0, 0.06)',
+            sm: '0 3px 32px rgba(0, 0, 0, 0.06)',
             lg: '0 8px 10px rgba(0, 0, 0, 0.05)',
             xl: '10px 14px 34px rgba(0, 0, 0, 0.04)',
             '2xl': '14px 13px 32px 0 rgba(0, 0, 0, 0.03)',
@@ -480,6 +481,8 @@ module.exports = {
             DEFAULT: '1',
         },
         fontFamily: {
+            Epilogue:['Epilogue'],
+            demo:['demo'],
             Leckerli: ['Leckerli'],
             body: '"DM Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
             heading: '"Poppins", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
@@ -593,7 +596,7 @@ module.exports = {
             none: 'none',
             xs: '20rem',
             sm: '24rem',
-            md: '28rem',
+            sm: '28rem',
             lg: '32rem',
             xl: '36rem',
             '2xl': '42rem',
@@ -850,6 +853,17 @@ module.exports = {
 
     plugins: [
 
-        // require("tailwindcss-animations",),
+        require("daisyui",),
     ],
+    daisyui: {
+        styled: true,
+        themes: false,
+        base: true,
+        utils: true,
+        logs: true,
+        rtl: false,
+        prefix: "",
+        darkTheme: "dark",
+      },
+    
 }

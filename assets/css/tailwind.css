@@ -2,9 +2,22 @@
 @tailwind components;
 
 .nuxt-link-exact-active {
-
-  @apply font-semibold ;
+  @apply font-semibold;
 }
 
 
+
+/* @font-face {
+  font-family:"demo";
+  src: url("../assets/fonts/Epilogue-VariableFont_wght.ttf") format("ttf");
+  font-weight: 500;
+ font-style: normal;
+} */
+
 @tailwind utilities;
+
+
+@font-face {
+  font-family:"Epilogue";
+  src: url('~/assets/font/Epilogue-VariableFont_wght.ttf');
+}
