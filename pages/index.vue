@@ -15,7 +15,7 @@
             <input type="checkbox" id="my-modal-6" class="modal-toggle" />
             <div class="modal modal-bottom sm:modal-middle">
               <div class="modal-box">
-                <div class="codegena"><iframe width="500" height="294" src="https://www.youtube.com/embed/ow1QqW0jzTo?&theme=dark&autoplay=1&autohide=1" frameborder="0"></iframe></div>
+                <div class="codegena"><iframe width="500" height="294" src="https://www.youtube.com/embed/ow1QqW0jzTo?&theme=dark&autohide=1" frameborder="0"></iframe></div>
                 <div style="font-size: 0.8em"></div>
                 <div class="modal-action">
                   <label for="my-modal-6" class="bg-yellow-500 py-1 px-2 rounded-xl font-semibold cursor-pointer">close</label>
