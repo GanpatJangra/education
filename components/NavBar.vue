@@ -6,9 +6,9 @@
 
     <div :class="{ hidden }" class="xl:flex absolute justify-end uppercase absolute top-[5rem] xl:top-2 list-none space-y-5 lg:space-y-0 xl:bg-transparent bg-yellow-500 w-full p-5 rounded-xl lg:space-x-10 lg:text-lg">
       <li><nuxt-link to="/">Home</nuxt-link></li>
+      <li><nuxt-link to="/aboutus">about us</nuxt-link></li>
       <li><a href="/#DiscoverTutor">Find tutor</a></li>
       <li><nuxt-link to="/howitwork">how it work</nuxt-link></li>
-      <li><nuxt-link to="/aboutus">about us</nuxt-link></li>
       <li><nuxt-link to="/blog">blog</nuxt-link></li>
       <div class="flex pl-10 space-x-4">
         <li><nuxt-link to="/login">login</nuxt-link></li>

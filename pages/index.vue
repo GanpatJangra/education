@@ -14,7 +14,7 @@
             <!-- Put this part before </body> tag -->
             <input type="checkbox" id="my-modal-6" class="modal-toggle" />
             <div class="modal modal-bottom sm:modal-middle">
-              <div class="modal-box">
+              <div class="w-full md:w-1/3 xl:w-1/2 border-2 border-second bg-first py-2 px-2 rounded-xl ">
                 <div class="codegena"><iframe width="500" height="294" src="https://www.youtube.com/embed/ow1QqW0jzTo?&theme=dark&autohide=1" frameborder="0"></iframe></div>
                 <div style="font-size: 0.8em"></div>
                 <div class="modal-action">
@@ -30,15 +30,15 @@
       <div class="lg:w-[60%] lg:text-left sm:text-center">
         <h1 class="sm:text-[4rem] text-8xl leading-tight">
           Never stop
-          <span class="relative">
-            <img class="absolute top-0 left-0 w-full h-full" src="~/assets/images/webcom/graphic.png" alt="" />
-            <span class="relative font-semibold bg-no-repeat bg-contain bg-graphic lg:bg-none">learning.</span>
+          <!-- <span class="relative">
+            <img class="absolute top-0 left-0 w-full h-full" src="~/assets/images/webcom/graphic.png" alt="" /> -->
+            <span class="bg-[url('~/assets/images/webcom/graphic.png')] font-semibold bg-no-repeat bg-cover  bg-graphic lg:bg-none"> learning. </span>
             <br />
-          </span>
+          <!-- </span> -->
           Life never stops teaching!
         </h1>
         <div class="flex flex-col pt-10 sm:items-center lg:flex-row">
-          <input class="pl-1 h-14 w-72 lg:w-[25rem] bg-white shadow-sm shadow-second/50 placeholder:text-black placeholder:pl-10 placeholder:font-semibold focus:outline-none block" type="text" placeholder="What do you want to learn ?" />
+          <input class="font-semibold  pl-1 h-14 w-72 lg:w-[25rem] bg-white shadow-sm shadow-second/50 placeholder:text-black placeholder:pl-10 placeholder:font-semibold focus:outline-none block" type="text" placeholder="What do you want to learn ?" />
           <button class="flex items-center justify-center w-56 text-lg font-semibold uppercase bg-yellow-500 shadow-sm h-14 shadow-second/50">
             <h1>find tutor</h1>
             <svg class="w-8 h-8 ml-4 text-third" fill="none" viewBox="0 0 24 24" stroke="currentColor">

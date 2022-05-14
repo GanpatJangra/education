@@ -2,7 +2,7 @@
   <div>
     <div class="mb-10">
       <h1 id="DiscoverTutor" class="font-semibold text-8xl">Discover tutor</h1>
-      <ssr-carousel :show-arrows="true" show-dots loop="true" class="relative">
+      <ssr-carousel :show-arrows="true" show-dots :loop="true" class="relative">
         <div class="slide flex flex-col sm:flex-row items-center justify-between text-center font-semibold text-xl">
           <div>
             <img src="../assets/images/webcom/image.svg" alt="" />

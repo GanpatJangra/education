@@ -1,7 +1,7 @@
 <template>
   <div class="my-10">
     <h1 class="font-semibold text-8xl">Testimonials</h1>
-    <ssr-carousel :show-arrows="true" show-dots loop class="relative">
+    <ssr-carousel :show-arrows="true" show-dots :loop="true" class="relative">
       <div class="slide">
         <div>
           <div class="flex justify-center flex-col sm:flex-row items-center">
