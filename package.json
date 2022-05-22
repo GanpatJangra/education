@@ -6,7 +6,7 @@
     "dev1": "nuxt dev",
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "nuxt start --port 5000",
     "generate": "nuxt generate"
   },
   "dependencies": {

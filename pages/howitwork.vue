@@ -3,7 +3,7 @@
 <section class="py-20 2xl:py-40 overflow-hidden">
   <div class="container px-4 mx-auto">
     <div class="mb-10 max-w-xl mx-auto mb-28 text-center">
-      <span class="text-lg font-bold text-blue-500">How it works</span>
+      <span class="text-lg font-bold ">How it works</span>
       <h2 class="mt-12 text-5xl lg:text-6xl font-bold font-heading">Build and launch without problems</h2>
     </div>
     <div class="relative flex flex-wrap justify-center -mx-10">

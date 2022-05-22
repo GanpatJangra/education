@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section class="relative py-20 2xl:py-40 overflow-hidden font-Epilogue">
-      <div class="relative container px-4 mx-auto">
+    <section class=" py-20 2xl:py-40 overflow-hidden font-Epilogue">
+      <div class=" container px-4 mx-auto">
         <div class="max-w-5xl mx-auto">
           <div class="flex flex-wrap items-center -mx-4">
             <div class="w-full lg:w-1/2 px-4 mb-16 lg:mb-0">

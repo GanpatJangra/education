@@ -1,7 +1,6 @@
 <template>
   <div>
-    <section class="relative">
-      <img class="absolute top-0 right-0 hidden w-1/2 h-full lg:block" src="pstls-assets/images/contacts/shadows-big.png" alt="" />
+    <section >
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap -mx-4">
           <div class="w-full px-4 lg:w-1/2">
@@ -17,9 +16,8 @@
               </form>
             </div>
           </div>
-          <div class="relative w-full px-4 lg:w-1/2 lg:pl-24">
-            <img class="absolute top-0 left-0 w-full h-full lg:hidden" src="pstls-assets/images/contacts/shadows-big.png" alt="" />
-            <div class="relative max-w-md py-24 mx-auto xl:max-w-lg">
+          <div class=" w-full px-4 lg:w-1/2 lg:pl-24">
+            <div class=" max-w-md py-24 mx-auto xl:max-w-lg">
               <h2 class="mb-12 text-5xl md:text-6xl lg:text-7xl font-heading">Contact</h2>
               <p class="text-third">Is the answer to your question missing?</p>
               <p class="mb-20">Get in touch with us.</p>
